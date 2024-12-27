@@ -12,6 +12,7 @@ struct welcomeScreenRemakeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+				.accentColor(Color(red: 0.9, green: 0, blue: 0, opacity: 0.1))
         }
     }
 }
